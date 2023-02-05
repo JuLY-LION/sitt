@@ -1,0 +1,1 @@
+execute if score timerEnabled system matches 1 run function sitt:round_structure/game_timer
