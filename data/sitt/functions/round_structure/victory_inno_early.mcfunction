@@ -1,5 +1,6 @@
 # comment
 
+scoreboard players set timerEnabled system 0
 function sitt:round_structure/reveal
 function sitt:round_structure/titles_innodub
 tellraw @a ["",{"text":"[INNOCENT WIN]","bold":true,"color":"green"},"\n",{"text":"Traitors have made insufficient progress within the allotted time.","color":"yellow"}]

@@ -1,5 +1,6 @@
 # comment
 
+scoreboard players set timerEnabled system 0
 function sitt:round_structure/reveal
 function sitt:round_structure/titles_innodub
 tellraw @a ["",{"text":"[INNOCENT WIN]","bold":true,"color":"green"},"\n",{"text":"Overtime has expired and the Innocents are still alive.","color":"yellow"}]
