@@ -26,3 +26,5 @@ execute as @a[scores={isCorpse=2}] run function sitt:wait_as_corpse
 execute as @a[tag=float] run function sitt:float_tag
 
 execute as @e[type=item,nbt={Age:1s,Item:{id:"minecraft:skull_banner_pattern",Count:1b}}] run data merge entity @s {PickupDelay:0,Age:5981s}
+
+# execute at @a[team=traitor] run particle dust 1 0 0 1
