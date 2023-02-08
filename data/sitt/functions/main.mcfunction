@@ -8,7 +8,7 @@ tellraw @p[scores={isCorpse=3..}] {"text":"Your body was destroyed by unnatural 
 execute as @p[scores={isCorpse=3..}] run function sitt:convert_to_spectator
 
 execute at @p[scores={useFB=1..}] run execute at @e[tag=flashbang] run function sitt:flashbang
-execute at @e[tag=flashbang] run stopsound @a[distance=..15] player
+execute at @e[tag=flashbang] run stopsound @a[distance=..15]
 
 execute as @a[scores={equipment=1..99}] run function sitt:display_shop
 execute as @a[scores={equipment=100..}] run function sitt:credit_check
