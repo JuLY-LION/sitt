@@ -7,7 +7,9 @@ item replace entity @a[team=detective] armor.head with diamond_helmet{display:{N
 
 give @a[team=!] apple 5
 
-item replace entity @a[team=traitor] inventory.25 with silverfish_spawn_egg{display:{Name:'{"text":"Flashbang","color":"red","italic":false}',Lore:['{"text":"Deploy to set off instantly"}','{"text":"The user will receive fewer debuffs"}']},EntityTag:{Silent:1b,Tags:["flashbang"],ActiveEffects:[{Id:14,Amplifier:0b,Duration:1200},{Id:20,Amplifier:3b,Duration:1200}]}} 2
+# item replace entity @a[team=!] hotbar.8 with CARROT_STICK_ITEM
+
+# item replace entity @a[team=traitor] inventory.25 with silverfish_spawn_egg{display:{Name:'{"text":"Flashbang","color":"red","italic":false}',Lore:['{"text":"Deploy to set off instantly"}','{"text":"The user will receive fewer debuffs"}']},EntityTag:{Silent:1b,Tags:["flashbang"],ActiveEffects:[{Id:14,Amplifier:0b,Duration:1200},{Id:20,Amplifier:3b,Duration:1200}]}}
 
 # credits
 item replace entity @a[team=detective] inventory.26 with heart_of_the_sea{display:{Name:'{"text":"Special Credit","color":"light_purple","italic":false}'}} 1

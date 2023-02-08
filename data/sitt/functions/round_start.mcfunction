@@ -14,3 +14,8 @@ scoreboard players operation detectives system /= two system
 
 function sitt:round_structure/reset_timer
 scoreboard players set timerEnabled system 1
+
+execute as @a run function sitt:respawn
+title @a actionbar "Prep ends in 60 seconds"
+schedule function sitt:starter_items 10t
+schedule function sitt:tell_role 61s

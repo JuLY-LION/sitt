@@ -1,5 +1,6 @@
 # comment
 
+gamemode survival @s
 clear @s
 effect clear @s
 effect give @s regeneration 1 15 true
