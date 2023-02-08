@@ -2,6 +2,8 @@
 
 # Investigative
 
+give @s[scores={equipment=105}] repeating_command_block{display:{Name:'{"text":"Radar","color":"blue","italic":false}'}}
+give @s[scores={equipment=106}] shears{display:{Name:'{"text":"placeholder","color":"blue","italic":false}'},Unbreakable:1b}
 
 # Protective
 
@@ -10,6 +12,7 @@ execute at @s[scores={equipment=204}] run summon item ~0 ~1 ~0 {Passengers:[{id:
 give @s[scores={equipment=205}] minecraft:slime_ball{Enchantments:[{id:knockback,lvl:3}]}
 
 # Consumables
+
 give @s[scores={equipment=302}] potion{Potion:"minecraft:strong_regeneration"} 1
 # (304) summon area_effect_cloud ~4 ~0 ~4 {Particle:"ambient_entity_effect",ReapplicationDelay:30,Radius:3f,RadiusPerTick:0f,RadiusOnUse:-0.05f,Duration:6000,DurationOnUse:0f,Age:0,WaitTime:0,Potion:"minecraft:healing"}
 give @s[scores={equipment=305}] bundle{Items:[{id:"minecraft:enchanting_table",Count:1b},{id:"minecraft:experience_bottle",Count:24b},{id:"minecraft:lapis_lazuli",Count:24b},{id:"minecraft:anvil",Count:1b}]} 1
