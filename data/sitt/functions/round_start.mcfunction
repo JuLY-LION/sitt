@@ -18,6 +18,8 @@ scoreboard players set timerEnabled system 1
 time set 22800
 
 execute as @a run function sitt:respawn
+effect give @a regeneration 65 2 true
+effect give @a weakness 65 2 true
 title @a actionbar "Prep ends in 60 seconds"
 schedule function sitt:starter_items 10t
 schedule function sitt:tell_role 61s
