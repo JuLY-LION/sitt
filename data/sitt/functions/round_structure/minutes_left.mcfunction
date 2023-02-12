@@ -3,9 +3,9 @@
 execute if score seconds system matches -30 run title @a actionbar "Prep ends in 30 seconds"
 execute if score seconds system matches -20 run title @a actionbar "Prep ends in 20 seconds"
 execute if score seconds system matches -10 run title @a actionbar "Prep ends in 10 seconds"
-execute if score seconds system matches -3 as @a[gamemode=survival] at @s run playsound minecraft:block.note_block.snare block @s ~ ~16 ~ 1 1 1
-execute if score seconds system matches -2 as @a[gamemode=survival] at @s run playsound minecraft:block.note_block.snare block @s ~ ~16 ~ 1 1 1
-execute if score seconds system matches -1 as @a[gamemode=survival] at @s run playsound minecraft:block.note_block.snare block @s ~ ~16 ~ 1 1 1
+execute if score seconds system matches -3 as @a[gamemode=survival] at @s run playsound minecraft:block.note_block.snare block @s ~ ~100 ~ 1 1 1
+execute if score seconds system matches -2 as @a[gamemode=survival] at @s run playsound minecraft:block.note_block.snare block @s ~ ~100 ~ 1 1 1
+execute if score seconds system matches -1 as @a[gamemode=survival] at @s run playsound minecraft:block.note_block.snare block @s ~ ~100 ~ 1 1 1
 
 execute if score seconds system matches 10 run title @a actionbar "Equipment shop is now avilable"
 execute if score seconds system matches 60 run title @a actionbar "14 minutes left"
