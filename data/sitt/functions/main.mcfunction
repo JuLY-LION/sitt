@@ -1,10 +1,11 @@
 # comment
 
 # execute at @a[gamemode=survival] run spawnpoint @p ~ ~ ~
-scoreboard players set @a[nbt={Inventory:[{id:"minecraft:skeleton_skull",Slot:103b}]}] isCorpse 100
-execute as @p[scores={isCorpse=9..99}] run function sitt:become_corpse
-scoreboard players add @p[scores={isCorpse=1..98}] isCorpse 1
-
+# scoreboard players set @a isCorpse 100
+execute as @a[scores={isCorpse=2..99}] run execute unless entity @s[nbt={Inventory:[{id:"minecraft:skeleton_skull"}]}] run function sitt:become_corpse
+scoreboard players add @p[scores={isCorpse=1..99}] isCorpse 1
+# nbt={Inventory:[{Slot:103b}]}
+# nbt={Inventory:[{id:"minecraft:skull",Slot:103b}]}
 execute as @p[scores={useCoaSt=1..}] at @s run function sitt:identify_corpse
 execute as @p[scores={isCorpse=1..,confirmedDead=1}] run function sitt:convert_to_spectator
 tellraw @p[scores={isCorpse=101..}] {"text":"Your body was destroyed by unnatural means. Your death and role will appear in the player tab, but won't be broadcasted in chat.","color":"red"}

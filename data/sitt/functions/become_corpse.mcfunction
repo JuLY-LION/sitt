@@ -7,7 +7,7 @@ effect give @s saturation 72000 0 true
 effect give @s blindness 3
 execute as @s[type=player] run function sitt:back_to_deathpoint
 gamemode adventure @s
-# scoreboard players add @s isCorpse 1
+scoreboard players set @s isCorpse 80
 tag @s remove float
 
 title @s title {"text":"You are eliminated!","bold":true,"color":"dark_red"}
