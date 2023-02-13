@@ -25,3 +25,5 @@ title @a actionbar "Prep ends in 60 seconds"
 schedule function sitt:starter_items 10t
 schedule function sitt:tell_role 61s
 schedule function sitt:special_items 70s
+
+scoreboard players enable @a help
