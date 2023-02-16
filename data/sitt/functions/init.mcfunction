@@ -20,7 +20,7 @@ scoreboard objectives add confirmedDead dummy
 scoreboard objectives add pollution dummy
 scoreboard objectives add system dummy
 scoreboard objectives add playerStatus dummy
-scoreboard objectives add onFire dummy Fire
+scoreboard objectives add onFire dummy "Fire"
 scoreboard objectives add helpPage dummy
 
 gamerule showDeathMessages false
