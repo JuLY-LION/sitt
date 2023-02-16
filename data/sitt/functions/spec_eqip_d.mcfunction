@@ -2,7 +2,7 @@
 
 # Investigative
 
-give @s[scores={equipment=105}] repeating_command_block{display:{Name:'{"text":"Radar","color":"blue","italic":false}'}}
+give @s[scores={equipment=105}] jigsaw{display:{Name:'{"text":"Radar","color":"blue","italic":false}'}}
 give @s[scores={equipment=106}] shears{display:{Name:'{"text":"placeholder","color":"blue","italic":false}'},Unbreakable:1b}
 
 # Protective
