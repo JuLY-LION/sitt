@@ -5,7 +5,4 @@ execute if score timerEnabled system matches 1 if score ticks system matches 0 r
 
 execute if score ticks system matches 19 run function sitt:update_status
 
-execute if score @a detectiveSlain matches 1 run function sitt:traitors_reward
-
-
-
+execute at @a[scores={detectiveSlain=1..}] run function sitt:traitors_reward
