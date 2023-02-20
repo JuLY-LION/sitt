@@ -1,6 +1,6 @@
 # Despite the name, this function is hardly related to the special equipment shop for either team.
 
-item replace entity @a[team=detective] inventory.26 with heart_of_the_sea{display:{Name:'{"text":"Special Credit","color":"light_purple","italic":false}'}} 1
+item replace entity @a[team=detective] inventory.26 with heart_of_the_sea{display:{Name:'{"text":"Equipment Credit","italic":false}'}} 1
 give @a[team=detective] bow{display:{Name:'{"text":"Detective\'s Bow","italic":false,"color":"blue"}'},Unbreakable:1b,Enchantments:[{id:"unbreaking",lvl:10}],HideFlags:4}
 item replace entity @a[team=detective] armor.head with diamond_helmet{display:{Name:'{"text":"Detective\'s Helmet","color":"blue","italic":false}'},Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:4s},{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:vanishing_curse",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUID:[I;488916492,-596160641,-1328285890,-1443605569],Slot:"head"},{AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:3,Operation:0,UUID:[I;-814125651,-1556986421,-2128915991,-974165551],Slot:"head"}]}
 
