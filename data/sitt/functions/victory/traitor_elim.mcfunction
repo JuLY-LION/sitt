@@ -1,4 +1,4 @@
-# comment
+# End game and declare Traitors the victor by elimination
 
 scoreboard players set timerEnabled system 0
 function sitt:round_structure/reveal
