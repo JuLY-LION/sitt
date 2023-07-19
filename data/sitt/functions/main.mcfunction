@@ -30,5 +30,5 @@ execute as @e[type=item,nbt={Age:1s,Item:{id:"minecraft:carrot_on_a_stick",Count
 function sitt:misc
 
 execute as @a[scores={help=1..}] run function sitthelp:help_trigger
-execute as @a[scores={game_start=1..}] run function sitt:gamemaster
-
+execute as @a[scores={game_start=1..}] run function sitt:gm_game_start
+execute as @a[scores={game_end=1..}] run function sitt:gm_game_end
