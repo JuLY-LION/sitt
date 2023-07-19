@@ -21,3 +21,6 @@ execute if entity @s[team=traitor] run scoreboard players add deadT playerStatus
 execute if entity @s[team=traitor] run scoreboard players remove aliveT playerStatus 1
 execute if entity @s[team=detective] run scoreboard players add deadDe playerStatus 1
 execute if entity @s[team=detective] run scoreboard players remove aliveDe playerStatus 1
+
+scoreboard players enable @s[tag=GM] game_start
+scoreboard players enable @s[tag=GM] game_end

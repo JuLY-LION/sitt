@@ -16,6 +16,8 @@ scoreboard objectives add useFireCharge minecraft.used:minecraft.fire_charge
 scoreboard objectives add detectiveSlain teamkill.blue
 scoreboard objectives add equipment trigger
 scoreboard objectives add help trigger "Help Guide"
+scoreboard objectives add game_start trigger
+scoreboard objectives add game_end trigger
 scoreboard objectives add confirmedDead dummy
 scoreboard objectives add pollution dummy
 scoreboard objectives add system dummy

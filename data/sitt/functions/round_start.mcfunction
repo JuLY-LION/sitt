@@ -27,3 +27,5 @@ schedule function sitt:tell_role 61s
 schedule function sitt:special_items 70s
 
 scoreboard players enable @a help
+scoreboard players enable @a[tag=GM] game_start
+scoreboard players enable @a[tag=GM] game_end
